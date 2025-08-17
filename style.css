@@ -9,6 +9,11 @@ body {
     background-repeat: no-repeat;
     color: white;
 }
+.name {
+    font-size: 25px;
+    font-weight: bold;
+    line-height: 20px;
+}
 .header {
      display: flex;
     align-items: center;
@@ -37,6 +42,10 @@ body {
     border-radius: 10px;
     cursor: pointer;
     font-size: 15px;
+}
+.main-content {
+    margin: 20px;
+    padding: 10px;
 }
 #contact p {
     font-size: 20px;
