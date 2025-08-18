@@ -36,10 +36,8 @@ body {
     text-decoration: none;
 }
 .navigation button {
-    background-color: rgb(35, 127, 169);
-    color: white;
-    border: none;
-    border-radius: 10px;
+    background-color: red;
+    border: solid 2px rgb(177, 129, 87);
     cursor: pointer;
     font-size: 15px;
 }
@@ -60,7 +58,18 @@ body {
     margin-top: 20px;
 }
 .social-icons a {
-    color: rgb(35, 127, 169);
     font-size: 24px;
     margin: 0 10px;
+}
+.fa-github {
+    color: white;
+}
+.fa-linkedin {
+    color: #0077B5;
+}
+.fa-twitter {
+    color: #1DA1F2;
+}
+.fa-instagram {
+    color: #C13584;
 }
