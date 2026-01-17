@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
+    <title>Sayooj Xavier | Python Developer</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
 </head>
@@ -12,54 +12,82 @@
         <div class="header">
             <div class="name">
                 <h1>Sayooj Xavier</h1>
-                <h3>Frontend Developer</h3> 
+                <h3>Python Developer</h3> 
             </div>
            <div class="navigation">
              <nav>
               <button><a href="#about">About</a></button>
               <button><a href="#skills">Skills</a></button>
+              <button><a href="#projects">Projects</a></button>
               <button><a href="#contact">Contact</a></button>
              </nav>
            </div>
         </div>
-    
+  
     <div class="main-content">
     <section id="about">
         <h2>About me</h2>
-        <p>I’m a commerce enthusiast who recently stepped into the world of web development.
-    <br> With a foundation in business and finance, I’ve always been curious about how technology shapes industries
-    <br>— and now I’m actively exploring that space by learning HTML and CSS.
-    <br>This is my first frontend project and I continue to build hands-on skills in front-end development.
-    <br>I enjoy the creative process of turning ideas into clean, responsive, and user-friendly web experiences.
-    <br>Currently, I’m focused on:
-    <br>- Strengthening my HTML/CSS fundamentals
-    <br>- Understanding how technology complements business goals
-    <br>- Exploring the potential of combining commerce knowledge with digital tools
-    <br>- Always open to collaboration, learning opportunities, and connecting with like-minded people from both the tech and business worlds.
+        <p>Commerce graduate specializing in Python backend development with Flask.<br>
+        Building robust Python web applications, RESTful APIs, and data processing systems using Flask framework.<br>
+        Experienced with file handling, Flask routes, templates, and Python automation scripts.<br>
+        Currently focused on:<br>
+        - Flask web applications & REST APIs<br>
+        - File handling and data processing<br>
+        - Backend development with Flask<br>
+        - Python automation projects on GitHub<br>
+        Open to Python/Flask development opportunities and backend projects.
+        </p>
+    </section>
+
     <section id="skills">
     <h2>Skills</h2>
         <ul>
-            <li>HTML</li>
-            <li>CSS</li>
-            <li>JavaScript</li>
-            <li>GitHub</li>
+            <li>Python & Flask (Backend Development)</li>
+            <li>HTML5 & CSS3</li>
+            <li>Git & GitHub</li>
+            <li>VSCode</li>
+            <li>File Handling & Data Processing</li>
+            <li>Flask APIs & Web Apps</li>
+            <li>Loops & Dictionaries</li>
         </ul>
     </section>
+
+    <section id="projects">
+        <h2>Featured Projects</h2>
+        <ul>
+            <li><strong>Flask Portfolio API</strong> - RESTful API built with Flask framework <a href="https://github.com/sjxvr" target="_blank">(View Code)</a></li>
+            <li><strong>Python File Processor</strong> - File handling system with Flask backend <a href="https://github.com/sjxvr" target="_blank">(View Code)</a></li>
+            <li><strong>Flask Data Dashboard</strong> - Web app with Flask routes & templates <a href="https://github.com/sjxvr" target="_blank">(View Code)</a></li>
+        </ul>
+        <p><a href="https://github.com/sjxvr" target="_blank">View all Flask projects on GitHub →</a></p>
+    </section>
+
     <section id="contact">
-        <h2>Contact</h2>
-        <p>You can reach me at <br>
+        <h2>Get In Touch</h2>
+        <p>Available for Python/Flask development, backend APIs, and web application projects.<br>
             <a href="mailto:sayoojsj003@gmail.com">sayoojsj003@gmail.com</a><br>
-          <a href="tel:+919961542003">+91 9961542003</a>
+            <a href="tel:+919961542003">+91 9961542003</a>
         </p>
     </section>
-       <div class="social-icons">
+      
+      <div class="social-icons">
         <a href="https://github.com/sjxvr" target="_blank"><i class="fab fa-github"></i></a>
         <a href="https://www.linkedin.com/in/sayooj-xavier-51376b1b5/" target="_blank"><i class="fab fa-linkedin"></i></a>
         <a href="https://x.com/SJ_2K3" target="_blank"><i class="fab fa-twitter"></i></a>
         <a href="https://www.instagram.com/sjxvr_/" target="_blank"><i class="fab fa-instagram"></i></a>
-       </div>
+      </div>
       </div>
     </div>
 
+    <script>
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+    </script>
 </body>
 </html>
